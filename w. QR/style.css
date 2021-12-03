@@ -1,0 +1,239 @@
+#qrcode {
+  width:160px;
+  height:160px;
+  margin-top:15px;
+}
+
+.info-contenu p{
+  background-color: #b0d2d2;
+  text-transform: uppercase;
+}
+
+.element-contenu p{
+  background-color: #b0d2d2;
+  text-transform: uppercase;
+  color: black;
+}
+
+.info-contenu{
+  text-transform: uppercase;
+  width: 210px;
+}
+
+.element-contenu{
+  text-align: right;
+  width: 210px;
+}
+
+.info-general{
+  display: flex;
+  margin-left: 5%;
+}
+
+.logo, .logo-stock{
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+.test{
+  background-color: red;
+}
+
+.alerteRouge{
+  width:480px;
+  background-color:red;
+  padding-top:10px;
+  padding-bottom:5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.alerteOrange{
+  width:480px;
+  background-color:#f9ae5e;
+  padding-top:10px;
+  padding-bottom:5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.alerteVerte{
+  width:480px;
+  background-color:#4a696e;
+  padding-top:10px;
+  padding-bottom:5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.boutons{
+  margin-bottom: 40px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4a696e; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #679299; 
+}
+.gestionStock{
+  background-color: #4a696e;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding:60px 15px 60px 15px;
+  text-align: right;
+  line-height: 50px;
+  height: 500px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-right: -23px;
+  margin-left: 36px;
+}
+
+.container{
+  background-color: #a1c0c0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding:30px 15px 30px 15px;
+  text-align: left;
+  line-height: 20px;
+  height:500px;
+  margin-bottom: 40px;
+  margin-left:-12px;
+}
+
+input.inputNom, input.inputQuantite, input.inputPaht,
+input.inputPvht, input.inputDegres{
+  height: 25px;
+  width: 250px;
+  text-transform: uppercase;
+}
+
+input.nom, input.quantite, input.paht,
+input.pvht, input.degres{
+  height: 35px;
+  width: 250px;
+  text-transform: uppercase;
+}
+
+button.bouttonValider{
+  height: 36px;
+  width: 450px;
+  text-align: center;
+  font-size: 15px;
+  border: 0px solid white;
+  background-color: white;
+  color: #a1c0c0;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+button.bouttonValider:hover{
+  height: 36px;
+  width: 450px;
+  text-align: center;
+  font-size: 15px;
+  border: 0px solid white;
+  background-color: #a1c0c0;
+  color: white;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+button.buttonActualiser, button.buttonDelete{
+  height: 36px;
+  width: 480px;
+  text-align: center;
+  font-size: 15px;
+  border: 0px solid white;
+  background-color: white;
+  color: #a1c0c0;
+  margin-right: 25px;
+  margin-top: -9px;
+}
+
+button.buttonActualiser:hover, button.buttonDelete:hover{
+
+  border: 0px solid white;
+  background-color: #4a696e;
+  color: white;
+
+}
+
+
+p.save-btn{
+  height: 46px;
+  position: relative;
+  top: -6px;
+}
+
+select.selectGen{
+  width: 250px;
+}
+
+
+/* 
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+form #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>COFFEE BLOOM</title>
+</head>
+<body>
+
+    <section>
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2"></div>
+                    <div class="col-md-4 tab-gestion">
+                        <div class="gestionStock"style="overflow-y: scroll; height:500px;">
+                            <form action="#" class="formulaire"onsubmit="return false;">
+
+                                <label for="nom">NOM</label>
+                                <input type="text" id="nom" name="nom" class="nom"></input><br>
+
+                                <label for="quantite">QUANTITÉ</label>
+                                <input type="number" id="quantite" name="quantite" class="quantite" min="0"></input><br>
+
+                                <label for="paht">PRIX D'ACHAT HT</label>
+                                <input type="text" id="paht" name="paht" class="paht"></input><br>
+
+                                <label for="pvht">PRIX DE VENTE HT</label>
+                                <input type="text" id="pvht" name="pvht" class="pvht"></input><br>
+
+                                <label for="type">TYPE DE PRODUIT</label>
+                                <select name="type" id="type" class="selectGen">
+                                    <option value="alcoolisee">BOISSON ALCOOLISEE</option>
+                                    <option value="non alcoolisee">BOISSON NON ALCOOLISEE</option>
+                                    <option value="autre">AUTRE</option>
+                                </select><br>
+
+                                <label for="degres">DEGRÉ ALCOOL</label>
+                                <input type="text" id="degres" name="degres" class="degres"></input><br>
+
+                                <button type="submit" class="bouttonValider" onclick="buttonValider()"><p class="save-btn">SAUVEGARDER<br/></p></button>
+                            
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="logo.jpg" width="80%" class="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <img src="logo-stock.jpg" width="80%" class="logo-stock">
+                </div>
+                <div class="col-md-4">
+                    <div class="container" style="overflow-y: scroll; height:500px;">
+                        <p class="containerInfo"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
